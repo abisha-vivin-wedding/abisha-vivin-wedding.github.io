@@ -2,11 +2,12 @@
     <title>Wedding Invite</title>
     <link href='https://fonts.googleapis.com/css?family=Bentham' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1" rel="stylesheet">
+    <meta name="viewport" content="width=500, initial-scale=1">
     <style>
         .center {
             margin: auto;
@@ -14,22 +15,41 @@
             max-width: 1000px;
             text-align: center;
         }
+        body{
+            background-color: #F2D7D5;
+            min-width: 500px;
+        }
+        .image {
+            background-image: url('images/background.jpg');
+            height: 100%;
+            min-width: 700px;
+            background-size: contain; 
+            background-repeat: no-repeat; 
+            background-position: center;
+        }
+        .text {
+            position:relative;
+            /* left:2%; */
+        }
     </style>
 </head>
-<body style="background-color: #F2D7D5;">
+<body>
    <div class="center">
-        <div style="background-image: url('images/background.jpg'); height: 100%; background-size: contain; background-repeat: no-repeat; background-position: center;">
-            <p style="font-family: 'Bentham'; font-size: 2.5vh; position:relative; top: 25%; left:2%;">You are cordially  </br> invited to the wedding of </p>
-            <p style="font-family: 'Dancing Script', cursive; font-size: 5vh; position:relative; top: 23%; left: 2%;">Abisha Aju</p>
-            <p style="font-family: 'Bentham'; font-size: 2.0vh; position:relative; top: 19%; left:2%;">And</p>
-            <p style="font-family: 'Dancing Script', cursive; font-size: 5vh; position:relative; top: 15%; left: 2%;">Vivin T Wilson</p>
-            <p style="font-family: 'Bentham'; font-size: 2.5vh; position:relative; top: 12%; left:2%;">SATURDAY </p>
-            <p style="position:relative; top: 10%; left:2%;">
-                <span style="font-family: 'Inconsolata', monospace; font-size: 2.5vh;">APRIL</span> 
-                <span style="font-family: 'Playfair Display', serif; font-size: 7vh;">|12|</span>
-                <span style="font-family: 'Inconsolata', monospace; font-size: 2.5vh;">6:00 PM </span>
+        <div class="image">
+            <p style="font-family: 'Bentham'; font-size: 2vh;  top: 25%;" class="text">You are cordially  </br> invited to the wedding of </p>
+            <p style="font-family: 'Dancing Script', cursive; font-size: 4.5vh; top: 23%;" class="text">Abisha Aju</p>
+            <p style="font-family: 'Bentham'; font-size: 1.25vh; top: 19%;" class="text">Daughter of Aju Kuthoor and Betty Aju</p>
+            <p style="font-family: 'Bentham'; font-size: 2vh; top: 19%;" class="text">And</p>
+            <p style="font-family: 'Dancing Script', cursive; font-size: 4.5vh; top: 15%;" class="text">Vivin T Wilson</p>
+            <p style="font-family: 'Bentham'; font-size: 1.25vh; top: 11%;" class="text">Son of Wilson Thomas and Sudha Wilson</p>
+            <p style="font-family: 'Bentham'; font-size: 2vh; top: 12%;" class="text">MONDAY</p>
+            <p style="top: 10%;" class="text">
+                <span style="font-family: 'Inconsolata', monospace; font-size: 2vh;">APRIL</span> 
+                <span style="font-family: 'Playfair Display', serif; font-size: 6.5vh;">|12|</span>
+                <span style="font-family: 'Inconsolata', monospace; font-size: 2vh;">6:00 PM </span>
             </p>
-            <p style="font-family: 'Bentham'; font-size: 2.5vh; position:relative; top: 10%; left:2%;">Disney land No 24 RT Nagar Hebbal</p>
+            <p style="font-family: 'Bentham'; font-size: 2vh; top: 10%;" class="text">Disney land No 24 RT Nagar Hebbal</p>
         </div>
     </div>  
+    
 </body>
